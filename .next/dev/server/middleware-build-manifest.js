@@ -1,49 +1,11 @@
 globalThis.__BUILD_MANIFEST = {
   "pages": {
-    "/_app": [
-      "static/chunks/b130b_next_dist_compiled_cc867174._.js",
-      "static/chunks/b130b_next_dist_shared_lib_b1101697._.js",
-      "static/chunks/b130b_next_dist_client_16258159._.js",
-      "static/chunks/b130b_next_dist_64f32dde._.js",
-      "static/chunks/b130b_next_app_ae42ab87.js",
-      "static/chunks/[next]_entry_page-loader_ts_288e2c3a._.js",
-      "static/chunks/b130b_react-dom_0fb34b3c._.js",
-      "static/chunks/b130b_f7f5b0c7._.js",
-      "static/chunks/[root-of-the-server]__9f80d198._.js",
-      "static/chunks/OneDrive_Desktop_fabtower_code_pages__app_2da965e7._.js",
-      "static/chunks/turbopack-OneDrive_Desktop_fabtower_code_pages__app_de292826._.js"
-    ],
-    "/_error": [
-      "static/chunks/b130b_next_dist_compiled_cc867174._.js",
-      "static/chunks/b130b_next_dist_shared_lib_722dcf11._.js",
-      "static/chunks/b130b_next_dist_client_16258159._.js",
-      "static/chunks/b130b_next_dist_abe9b24a._.js",
-      "static/chunks/b130b_next_error_bb37ae62.js",
-      "static/chunks/[next]_entry_page-loader_ts_d8079224._.js",
-      "static/chunks/b130b_react-dom_0fb34b3c._.js",
-      "static/chunks/b130b_f7f5b0c7._.js",
-      "static/chunks/[root-of-the-server]__b7db471f._.js",
-      "static/chunks/OneDrive_Desktop_fabtower_code_pages__error_2da965e7._.js",
-      "static/chunks/turbopack-OneDrive_Desktop_fabtower_code_pages__error_96bf7f8e._.js"
-    ]
+    "/_app": []
   },
   "devFiles": [],
-  "polyfillFiles": [
-    "static/chunks/b130b_next_dist_build_polyfills_polyfill-nomodule.js"
-  ],
+  "polyfillFiles": [],
   "lowPriorityFiles": [],
-  "rootMainFiles": [
-    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_5e6f085f._.js",
-    "static/chunks/b130b_next_dist_compiled_react-dom_54dd97d1._.js",
-    "static/chunks/b130b_next_dist_compiled_react-server-dom-turbopack_9d3cfb56._.js",
-    "static/chunks/b130b_next_dist_compiled_next-devtools_index_2e528865.js",
-    "static/chunks/b130b_next_dist_compiled_4a75477c._.js",
-    "static/chunks/b130b_next_dist_client_bbf891f0._.js",
-    "static/chunks/b130b_next_dist_83d7af93._.js",
-    "static/chunks/b130b_@swc_helpers_cjs_8f7e1276._.js",
-    "static/chunks/OneDrive_Desktop_fabtower_code_a0ff3932._.js",
-    "static/chunks/turbopack-OneDrive_Desktop_fabtower_code_d7033b85._.js"
-  ]
+  "rootMainFiles": []
 };
 globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
 "/static/" + process.env.__NEXT_BUILD_ID + "/_buildManifest.js",
