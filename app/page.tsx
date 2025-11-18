@@ -7,33 +7,35 @@ import PhoneButton from '@/components/ui/phone-button';
 import EmailButton from '@/components/ui/email-button';
 
 export const metadata = {
-  title: 'FAB TOWER - Composants Industriels & Solutions Mécaniques',
-  description: 'Fournisseur premium de roulements, ressorts, composants mécaniques et solutions industrielles. De confiance par les fabricants du monde entier.',
+  title: 'FAB TOWER - Composants Industriels & Solutions Mécaniques au Maroc',
+  description: 'FAB TOWER est votre fournisseur de confiance au marché marocain pour les solutions mécaniques industrielles. Nous accompagnons les entreprises marocaines en leur fournissant des roulements, ressorts, composants mécaniques, arrêts d’huile et chaînes de convoyeur de haute qualité, adaptés aux besoins de l’industrie nationale.',
 }
 
 export default function Home() {
   const categories = [
-    {
-      id: 'bearings',
-      title: 'Roulements (Bearings)',
-      description: 'Roulements premium de marques mondialement renommées incluant SKF, FAG, Timken, NSK et NTN.',
-      icon: '⚙️',
-    },
-    {
-      id: 'springs',
-      title: 'Ressorts (Springs)',
-      description: 'Ressorts industriels certifiés fabriqués aux plus hauts standards de précision.',
-      icon: '🌀',
-    },
     {
       id: 'mechanical',
       title: 'Fabrication Mécanique',
       description: 'Production mécanique personnalisée avec usinage de précision et services d\'assemblage.',
       icon: '🔧',
     },
+     {
+      id: 'springs',
+      title: 'Fabrication Ressorts (Springs)',
+      description: 'Ressorts industriels certifiés fabriqués aux plus hauts standards de précision.',
+      icon: '🌀',
+    },
+    {
+      id: 'bearings',
+      title: 'Roulements (Bearings)',
+      description: 'Roulements premium de marques mondialement renommées incluant SKF, FAG, Timken, NSK et NTN.',
+      icon: '⚙️',
+    },
+   
+    
     {
       id: 'seals',
-      title: 'Joints d\'Huile (Oil Seals)',
+      title: 'Arrêt d’Huile (Oil Seals)',
       description: 'Joints d\'huile de classe mondiale conçus pour les applications industrielles exigeantes.',
       icon: '🛡️',
     },
@@ -88,14 +90,11 @@ export default function Home() {
                 <div className="relative container-wide py-20 md:py-32">
                   <div className="max-w-3xl fade-in">
                     <h1 className="text-balance mb-6 text-white">
-                      Composants Industriels Premium & Solutions Mécaniques
+                      Composants Industriels Premium & Solutions Mécaniques au Maroc
                     </h1>
 
                     <p className="text-xl text-white/90 mb-8 leading-relaxed">
-                      FAB TOWER est votre fournisseur de confiance pour les solutions
-                      mécaniques industrielles. Nous fournissons des roulements, ressorts,
-                      composants mécaniques, joints d'huile et chaînes de convoyeur de haute
-                      qualité aux fabricants du monde entier.
+               FAB TOWER est votre fournisseur de confiance au marché marocain pour les solutions mécaniques industrielles. Nous accompagnons les entreprises marocaines en leur fournissant des roulements, ressorts, composants mécaniques, arrêts d’huile et chaînes de convoyeur de haute qualité, adaptés aux besoins de l’industrie nationale.
                     </p>
 
                     <div className="flex gap-4 flex-wrap">
@@ -125,7 +124,7 @@ export default function Home() {
               <section className="bg-white border-b border-border">
                   <div className="container-wide py-12">
                     <p className="text-center text-muted-foreground font-semibold mb-8">
-                      Distributeur Autorisé des Marques Premium
+                      Distributeur  des Marques Premium
                     </p>
 
                     <div className="flex flex-wrap gap-10 justify-center items-center md:gap-14">
@@ -197,7 +196,7 @@ export default function Home() {
                       {highlight === 'Expertise Technique' &&
                         'Notre équipe d\'experts fournit un soutien technique et des conseils pour vos besoins spécifiques.'}
                       {highlight === 'Livraison Rapide' &&
-                        'Logistique efficace et gestion de la chaîne d\'approvisionnement pour une livraison opportune dans le monde entier.'}
+                        'Logistique efficace et gestion de la chaîne d\'approvisionnement pour une livraison opportune dans le maroc.'}
                       {highlight === 'Prix Compétitifs' &&
                         'Meilleur rapport qualité-prix pour les composants industriels de haute qualité sans compromettre la qualité.'}
                     </p>

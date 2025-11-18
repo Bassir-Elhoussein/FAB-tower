@@ -78,7 +78,7 @@ export default function About() {
             <div className="max-w-4xl">
               <h2 className="text-balance mb-6 text-foreground">Qui Sommes-nous?</h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                FAB TOWER est un fournisseur leader de composants mécaniques industriels et de solutions. Avec des années d'expérience dans l'industrie, nous nous sommes établis comme partenaire de confiance pour les fabricants cherchant des roulements, ressorts, pièces mécaniques, joints d'huile et chaînes de convoyeur de haute qualité.
+                FAB TOWER est un fournisseur leader de composants mécaniques industriels et de solutions. Avec des années d'expérience dans l'industrie, nous nous sommes établis comme partenaire de confiance pour les fabricants cherchant des roulements, ressorts, pièces mécaniques, arrêt  d'huile et chaînes de convoyeur de haute qualité.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 Notre entreprise est construite sur le fondement de la fourniture de produits exceptionnels, d'expertise technique et de service client. Nous travaillons étroitement avec des marques mondialement renommées incluant SKF, FAG, Timken, NSK et NTN pour assurer que nos clients reçoivent uniquement les meilleurs composants pour leurs opérations de fabrication.
@@ -140,8 +140,7 @@ export default function About() {
           <div className="container-wide">
             <h2 className="text-balance mb-12 text-foreground">Qualité & Certifications</h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl">
-              Nous maintenons les plus hauts standards de qualité, de sécurité et de responsabilité environnementale. Nos certifications démontrent notre engagement envers l'excellence.
-            </p>
+            Les produits que nous livrons sont certifiés selon les normes les plus strictes, garantissant qualité, sécurité et respect de l’environnement. Ils reflètent notre engagement à fournir des solutions fiables et durables à nos clients. </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {certifications.map((cert, index) => (
                 <div key={index} className="flex items-center gap-4 p-6 bg-white border border-border rounded-lg">

@@ -3,140 +3,11 @@ import { Footer } from '@/components/footer'
 import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowLeft, ShoppingCart, Download } from 'lucide-react'
-import WhatsAppButton from '@/components/ui/whatsapp-button';
-import PhoneButton from '@/components/ui/phone-button';
-import EmailButton from '@/components/ui/email-button';
-
-const productDetails: Record<string, any> = {
-  'bearing-roller': {
-    name: 'Roulements à Rouleaux',
-    category: 'Roulements',
-    image: '/roller-bearings-industrial.jpg',
-    description: 'Roulements à rouleaux pour applications à charge élevée',
-    fullDescription: 'Nos roulements à rouleaux sont conçus pour les applications exigeant une charge radiale élevée. Fabriqués selon les normes ISO, ces roulements offrent une durée de vie prolongée et une fiabilité exceptionnelle.',
-    specifications: [
-      'Charge radiale maximale: jusqu\'à 50 kN',
-      'Vitesse maximale: 3000 tr/min',
-      'Bagues en acier au chrome',
-      'Rouleaux en acier précis',
-      'Certifications ISO 281 et ISO 590',
-    ],
-    applications: [
-      'Moteurs électriques industriels',
-      'Réducteurs et multiplicateurs',
-      'Machines-outils',
-      'Équipements agricoles',
-      'Systèmes de convoyage',
-    ],
-    usesFor: [
-      'Transmission de puissance',
-      'Support de charges',
-      'Réduction de friction',
-      'Applications hautes températures',
-    ],
-  },
-  'bearing-spherical': {
-    name: 'Roulements Sphériques',
-    category: 'Roulements',
-    image: '/spherical-bearings.jpg',
-    description: 'Roulements sphériques pour installations alignées',
-    fullDescription: 'Les roulements sphériques sont spécialement conçus pour les installations où un certain désalignement est inévitable. Ils offrent une grande flexibilité angulaire.',
-    specifications: [
-      'Alésage: 10-120mm',
-      'Désalignement maximal: ±2-3°',
-      'Double rangée de billes',
-      'Cage en laiton ou acier',
-    ],
-    applications: [
-      'Installations de pompage',
-      'Chaînes de transmission',
-      'Équipements miniers',
-      'Machines agricoles',
-    ],
-    usesFor: [
-      'Compensation de désalignement',
-      'Applications pivotantes',
-      'Charge combinée radiale/axiale',
-    ],
-  },
-  'spring-compression': {
-    name: 'Ressorts de Compression',
-    category: 'Ressorts',
-    image: '/compression-springs-industrial.jpg',
-    description: 'Ressorts de compression pour support de charge',
-    fullDescription: 'Nos ressorts de compression sont fabriqués avec des aciers spécialisés et traités thermiquement pour assurer une performance optimale dans les applications les plus exigeantes.',
-    specifications: [
-      'Acier à ressort haute résistance',
-      'Traitements thermiques avancés',
-      'Diamètre du fil: 0.8-15mm',
-      'Longueur libre variable',
-      'Tolérance H8',
-    ],
-    applications: [
-      'Suspension automobile',
-      'Équipements industriels',
-      'Systèmes d\'absorption d\'énergie',
-      'Machines de précision',
-    ],
-    usesFor: [
-      'Stockage d\'énergie',
-      'Amortissement de chocs',
-      'Support de charge',
-      'Récupération élastique',
-    ],
-  },
-  'chain-roller': {
-    name: 'Chaînes à Rouleaux',
-    category: 'Chaînes de Convoyeur',
-    image: '/placeholder.svg?height=500&width=500',
-    description: 'Chaînes à rouleaux pour applications standard',
-    fullDescription: 'Chaînes à rouleaux industrielles conçues pour les applications de convoyage exigeantes. Haute résistance, faible usure et maintenance minimale.',
-    specifications: [
-      'Pas: 9.525-63.5mm',
-      'Charge de rupture: 500-50000 N',
-      'Acier allié traité',
-      'Rouleaux précis en acier',
-      'Normes ISO 606',
-    ],
-    applications: [
-      'Systèmes de convoyage',
-      'Chaînes de transmission',
-      'Équipements agro-industriels',
-      'Machines d\'emballage',
-    ],
-    usesFor: [
-      'Transport de charges',
-      'Transmission de puissance',
-      'Convoyage continu',
-      'Systèmes de manipulation',
-    ],
-  },
-  'mech-spur': {
-    name: 'Pignon Denté',
-    category: 'Fabrication Mécanique',
-    image: '/spur-gears-industrial.jpg',
-    description: 'Engrenages droits précis',
-    fullDescription: 'Engrenages droits fabriqués avec une précision extrême selon les normes DIN et ISO. Idéaux pour les applications nécessitant une transmission silencieuse et efficace.',
-    specifications: [
-      'Module: 0.5-20',
-      'Nombre de dents: 10-200',
-      'Matériaux: Acier, Bronze, Aluminium',
-      'Tolérance DIN 6-8',
-      'Usinage CNC haute précision',
-    ],
-    applications: [
-      'Réducteurs',
-      'Systèmes d\'entraînement',
-      'Machines-outils',
-      'Équipements industriels',
-    ],
-    usesFor: [
-      'Transmission de mouvement',
-      'Changement de vitesse',
-      'Modifications de couple',
-    ],
-  },
-}
+import WhatsAppButton from '@/components/ui/whatsapp-button'
+import PhoneButton from '@/components/ui/phone-button'
+import EmailButton from '@/components/ui/email-button'
+import ProductGallery from '@/components/product-gallery'
+import { productDetails } from '@/lib/products'
 
 interface ProductPageProps {
   params: Promise<{ id: string }>
@@ -145,7 +16,7 @@ interface ProductPageProps {
 export async function generateMetadata({ params }: ProductPageProps) {
   const { id } = await params
   const product = productDetails[id]
-  
+
   return {
     title: `${product?.name || 'Produit'} - FAB TOWER`,
     description: product?.description || 'Détails du produit',
@@ -160,7 +31,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
     return (
       <>
         <Header />
-        <main className="container-wide py-20">
+        <main className="container-wide py-50">
           <Link href="/products" className="inline-flex items-center gap-2 text-primary hover:underline mb-6">
             <ArrowLeft size={20} />
             Retour aux Produits
@@ -172,14 +43,19 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
     )
   }
 
+  const productImages = product.images && product.images.length > 0 
+    ? product.images 
+    : [product.image]
+
   return (
     <>
       <Header />
 
       <main>
-         <PhoneButton />
-         <EmailButton />
-         <WhatsAppButton />
+        <PhoneButton />
+        <EmailButton />
+        <WhatsAppButton />
+        
         {/* Breadcrumb */}
         <div className="border-b border-border bg-secondary">
           <div className="container-wide py-4">
@@ -194,34 +70,8 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
         <section className="bg-white py-16">
           <div className="container-wide">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-              {/* Product Image with Logo */}
-              <div className="relative rounded-lg overflow-hidden bg-secondary aspect-square">
-                <Image
-                  src={product.image || "/placeholder.svg"}
-                  alt={product.name}
-                  fill
-                  className="object-cover"
-                  priority
-                />
-                {/* <div className="absolute bottom-4 right-4 bg-white/95 rounded-lg p-3 shadow-lg">
-                  <Image
-                    src="/logo.jpg"
-                    alt="FAB TOWER"
-                    width={60}
-                    height={60}
-                    className="w-15 h-15"
-                  />
-                </div> */}
-                {/* ✅ Branding Logo bottom-right */}
-                <div className="absolute bottom-3 right-3">
-                  <Image
-                    src="/logo.jpg" // replace with your actual logo path (e.g. /logo.png)
-                    alt="Brand Logo"
-                    width={50}
-                    height={50}
-                    className="opacity-80 hover:opacity-100 transition-opacity duration-300"
-                  />
-                </div>
+              <div>
+                <ProductGallery images={productImages} productName={product.name} />
               </div>
 
               {/* Product Info */}

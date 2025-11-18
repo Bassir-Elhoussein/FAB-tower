@@ -8,85 +8,36 @@ import Image from 'next/image'
 import WhatsAppButton from '@/components/ui/whatsapp-button';
 import PhoneButton from '@/components/ui/phone-button';
 import EmailButton from '@/components/ui/email-button';
-
-interface Product {
-  id: string
-  name: string
-  category: string
-  image: string
-  shortDescription: string
-}
-
-interface Category {
-  id: string
-  title: string
-  description: string
-  label: string
-}
+import { categories, products } from '@/lib/products'
+import { CategoryDescription } from '@/components/category-description'
 
 export default function Products() {
-  const categories: Category[] = [
-    { id: 'all', title: 'Tous les Produits', description: 'Tous les produits', label: 'Tous' },
-    { id: 'bearings', title: 'Roulements', description: 'Roulements premium', label: 'Roulements' },
-    { id: 'springs', title: 'Ressorts', description: 'Ressorts industriels', label: 'Ressorts' },
-    { id: 'mechanical', title: 'Fabrication Mécanique', description: 'Services d\'usinage', label: 'Mécanique' },
-    { id: 'seals', title: 'Joints d\'Huile', description: 'Joints d\'huile premium', label: 'Joints' },
-    { id: 'chains', title: 'Chaînes de Convoyeur', description: 'Chaînes industrielles', label: 'Chaînes' },
-  ]
-
-  const products: Product[] = [
-    // Bearings
-    { id: 'bearing-roller', name: 'Roulements à Rouleaux', category: 'bearings', image: '/roller-bearings-industrial.jpg', shortDescription: 'Roulements à rouleaux pour applications à charge élevée' },
-    { id: 'bearing-spherical', name: 'Roulements Sphériques', category: 'bearings', image: '/spherical-bearings.jpg', shortDescription: 'Roulements sphériques pour installations alignées' },
-    { id: 'bearing-ball', name: 'Roulements à Billes', category: 'bearings', image: '/ball-bearings.jpg', shortDescription: 'Roulements à billes pour diverses applications' },
-    { id: 'bearing-tapered', name: 'Roulements Coniques', category: 'bearings', image: '/tapered-roller-bearings.jpg', shortDescription: 'Roulements à rouleaux coniques' },
-    { id: 'bearing-cylindrical', name: 'Roulements Cylindriques', category: 'bearings', image: '/cylindrical-roller-bearings.jpg', shortDescription: 'Roulements à rouleaux cylindriques' },
-    { id: 'bearing-thrust', name: 'Roulements de Poussée', category: 'bearings', image: '/thrust-ball-bearings.jpg', shortDescription: 'Roulements à billes de poussée' },
-    
-    // Springs
-    { id: 'spring-compression', name: 'Ressorts de Compression', category: 'springs', image: '/compression-springs-industrial.jpg', shortDescription: 'Ressorts de compression pour support de charge' },
-    { id: 'spring-tension', name: 'Ressorts de Traction', category: 'springs', image: '/tension-springs.jpg', shortDescription: 'Ressorts de traction pour applications de tirage' },
-    { id: 'spring-torsion', name: 'Ressorts de Torsion', category: 'springs', image: '/torsion-springs.jpg', shortDescription: 'Ressorts de torsion pour force rotationnelle' },
-    { id: 'spring-wire', name: 'Ressorts en Fil Formé', category: 'springs', image: '/wire-formed-springs.jpg', shortDescription: 'Ressorts en fil formé' },
-    { id: 'spring-custom', name: 'Ressorts Sur Mesure', category: 'springs', image: '/custom-springs-manufacturing.jpg', shortDescription: 'Ressorts sur mesure conçus selon les spécifications' },
-
-    // Mechanical Manufacturing
-    { id: 'mech-spur', name: 'Pignon Denté', category: 'mechanical', image: '/spur-gears-industrial.jpg', shortDescription: 'Engrenages droits précis' },
-    { id: 'mech-helical', name: 'Pignon Hélicoïdal', category: 'mechanical', image: '/helical-gears.jpg', shortDescription: 'Engrenages hélicoïdaux' },
-    { id: 'mech-bevel', name: 'Pignon Conique', category: 'mechanical', image: '/bevel-gears.jpg', shortDescription: 'Engrenages coniques' },
-    { id: 'mech-worm', name: 'Vis Sans Fin', category: 'mechanical', image: '/worm-gears.jpg', shortDescription: 'Vis sans fin précises' },
-    { id: 'mech-planetary', name: 'Pignon Planétaire', category: 'mechanical', image: '/placeholder.svg?height=300&width=300', shortDescription: 'Engrenages planétaires' },
-
-    // Oil Seals
-    { id: 'seal-spi', name: 'Joint SPI', category: 'seals', image: '/placeholder.svg?height=300&width=300', shortDescription: 'Joints SPI simple lèvre' },
-    { id: 'seal-double', name: 'Joint Double Lèvre', category: 'seals', image: '/placeholder.svg?height=300&width=300', shortDescription: 'Joints double lèvre' },
-    { id: 'seal-ptfe', name: 'Joint PTFE', category: 'seals', image: '/placeholder.svg?height=300&width=300', shortDescription: 'Joints PTFE pour applications spécialisées' },
-    { id: 'seal-vring', name: 'Joint V-Ring', category: 'seals', image: '/placeholder.svg?height=300&width=300', shortDescription: 'Joints V-ring' },
-    { id: 'seal-cassette', name: 'Joint Cassette', category: 'seals', image: '/placeholder.svg?height=300&width=300', shortDescription: 'Joints type cassette' },
-
-    // Conveyor Chains
-    { id: 'chain-roller', name: 'Chaînes à Rouleaux', category: 'chains', image: '/placeholder.svg?height=300&width=300', shortDescription: 'Chaînes à rouleaux pour applications standard' },
-    { id: 'chain-silent', name: 'Chaînes Silencieuses', category: 'chains', image: '/placeholder.svg?height=300&width=300', shortDescription: 'Chaînes silencieuses pour réduction du bruit' },
-    { id: 'chain-plate', name: 'Chaînes à Plaques', category: 'chains', image: '/placeholder.svg?height=300&width=300', shortDescription: 'Chaînes à plaques pour conceptions spécifiques' },
-    { id: 'chain-scraper', name: 'Chaînes à Raclage', category: 'chains', image: '/placeholder.svg?height=300&width=300', shortDescription: 'Chaînes à raclage' },
-    { id: 'chain-attachment', name: 'Chaînes avec Attaches', category: 'chains', image: '/placeholder.svg?height=300&width=300', shortDescription: 'Chaînes avec attaches' },
-  ]
-
   const [selectedCategory, setSelectedCategory] = useState('all')
+  const [selectedSubcategory, setSelectedSubcategory] = useState<string | null>(null)
 
   const filteredProducts = selectedCategory === 'all' 
     ? products 
-    : products.filter(p => p.category === selectedCategory)
+    : selectedSubcategory
+      ? products.filter(p => p.category === selectedCategory && p.subcategory === selectedSubcategory)
+      : products.filter(p => p.category === selectedCategory)
+
+  const selectedCategoryInfo = categories.find(cat => cat.id === selectedCategory)
+
+  const handleCategoryChange = (categoryId: string) => {
+    setSelectedCategory(categoryId)
+    setSelectedSubcategory(null)
+  }
 
   return (
     <>
       <Header />
 
-      <main> <PhoneButton />
-            <EmailButton />
-            <WhatsAppButton />
+      <main>
+        <PhoneButton />
+        <EmailButton />
+        <WhatsAppButton />
         {/* Page Header */}
-      <section
+        <section
           className="relative border-b border-border py-16 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: "url('/magasin.png')" }}
         >
@@ -102,7 +53,6 @@ export default function Products() {
           </div>
         </section>
 
-
         {/* Category Filter Bar */}
         <section className="bg-white border-b border-border sticky top-16 z-40 py-4">
           <div className="container-wide">
@@ -110,7 +60,7 @@ export default function Products() {
               {categories.map((cat) => (
                 <button
                   key={cat.id}
-                  onClick={() => setSelectedCategory(cat.id)}
+                  onClick={() => handleCategoryChange(cat.id)}
                   className={`px-4 py-2 rounded-md font-semibold transition-all ${
                     selectedCategory === cat.id
                       ? 'bg-primary text-primary-foreground'
@@ -123,6 +73,52 @@ export default function Products() {
             </div>
           </div>
         </section>
+
+        {selectedCategoryInfo && selectedCategory !== 'all' && (
+          <section className="bg-secondary py-12 border-b border-border">
+            <div className="container-wide">
+              <h2 className="text-3xl font-bold text-foreground mb-3 text-balance">
+                {selectedCategoryInfo.title}
+              </h2>
+           
+                <CategoryDescription description={selectedCategoryInfo.description} />
+        
+              
+              
+              {selectedCategoryInfo.subcategories && selectedCategoryInfo.subcategories.length > 0 && (
+                <div className="mt-6">
+                  <h3 className="font-semibold text-foreground mb-4">Filtrer par Subcatégorie:</h3>
+                  <div className="flex flex-wrap gap-2">
+                    <button
+                      onClick={() => setSelectedSubcategory(null)}
+                      className={`px-4 py-2 rounded-md font-semibold transition-all ${
+                        selectedSubcategory === null
+                          ? 'bg-primary text-primary-foreground'
+                          : 'bg-background text-foreground hover:bg-secondary border border-border'
+                      }`}
+                    >
+                      Tous les {selectedCategoryInfo.label}
+                    </button>
+                    
+                    {selectedCategoryInfo.subcategories.map((sub) => (
+                      <button
+                        key={sub.id}
+                        onClick={() => setSelectedSubcategory(sub.id)}
+                        className={`px-4 py-2 rounded-md font-semibold transition-all ${
+                          selectedSubcategory === sub.id
+                            ? 'bg-primary text-primary-foreground'
+                            : 'bg-background text-foreground hover:bg-secondary border border-border'
+                        }`}
+                      >
+                        {sub.label}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          </section>
+        )}
 
         {/* Products Grid */}
         <section className="bg-white py-20">
@@ -143,16 +139,16 @@ export default function Products() {
                             fill
                             className="object-cover group-hover:scale-105 transition-transform duration-300"
                           />
-                          {/* ✅ Branding Logo bottom-right */}
-                                          <div className="absolute bottom-3 right-3">
-                                            <Image
-                                              src="/logo.jpg" // replace with your actual logo path (e.g. /logo.png)
-                                              alt="Brand Logo"
-                                              width={50}
-                                              height={50}
-                                              className="opacity-80 hover:opacity-100 transition-opacity duration-300"
-                                            />
-                                          </div>
+                          {/* Branding Logo bottom-right */}
+                          <div className="absolute bottom-3 right-3">
+                            <Image
+                              src="/logo.jpg"
+                              alt="Brand Logo"
+                              width={50}
+                              height={50}
+                              className="opacity-80 hover:opacity-100 transition-opacity duration-300"
+                            />
+                          </div>
                         </div>
                         <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors line-clamp-2">
                           {product.name}
