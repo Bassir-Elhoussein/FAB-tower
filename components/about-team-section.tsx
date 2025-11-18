@@ -26,7 +26,7 @@ Nous travaillons chaque jour pour offrir des solutions adaptées aux besoins de 
           <div className="flex justify-center">
             <div className="w-80 h-80 rounded-full overflow-hidden shadow-lg">
               <img
-                src="/op.jpg"
+                src="/op.JPG"
                 alt="Team members"
                 className="w-full h-full object-cover"
               />

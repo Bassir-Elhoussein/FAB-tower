@@ -6,8 +6,8 @@ export function PartnersSection() {
   const [isExpanded, setIsExpanded] = useState(false)
 
   const partnerLogos = [
-    { name: 'Classic', logo: '/part1.jpg' },
-    { name: 'Sunshine', logo: '/part2.jpg' },
+    { name: 'Classic', logo: '/part1.JPG' },
+    { name: 'Sunshine', logo: '/part2.JPG' },
    
   ]
 
