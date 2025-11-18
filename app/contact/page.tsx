@@ -309,7 +309,7 @@ export default function Contact() {
           </div>
         </section>
 
-        <section className="bg-secondary border-t border-border py-12">
+        {/* <section className="bg-secondary border-t border-border py-12">
   <div className="container-wide">
     <h2 className="text-balance mb-8 text-foreground">Localisation</h2>
     <div className="bg-border rounded-lg overflow-hidden h-96 flex items-center justify-center">
@@ -325,7 +325,7 @@ export default function Contact() {
       ></iframe>
     </div>
   </div>
-</section>
+</section> */}
 
       </main>
 
