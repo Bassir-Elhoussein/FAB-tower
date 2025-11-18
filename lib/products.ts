@@ -83,7 +83,7 @@ description:  `
 ,{
   id: 'mechanical',
   title: 'Fabrication Mécanique',
-  label: 'Mécanique',
+  label: 'Fabrication mécanique',
   description: `
     <p>Spécialisés dans la fabrication mécanique de haute précision, nous proposons des solutions techniques robustes et adaptées aux exigences de l’industrie moderne. Grâce à un savoir-faire solide, un parc machines performant et un contrôle rigoureux de toutes les étapes de production, chaque composant est réalisé avec exactitude et fiabilité.</p>
 

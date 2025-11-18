@@ -5,10 +5,12 @@ import { ArrowRight, Check } from 'lucide-react'
 import WhatsAppButton from '@/components/ui/whatsapp-button';
 import PhoneButton from '@/components/ui/phone-button';
 import EmailButton from '@/components/ui/email-button';
+import { PartnersSection } from '@/components/partners-section'
+import { AboutTeamSection } from '@/components/about-team-section'
 
 export const metadata = {
   title: 'FAB TOWER - Composants Industriels & Solutions Mécaniques au Maroc',
-  description: 'FAB TOWER est votre fournisseur de confiance au marché marocain pour les solutions mécaniques industrielles. Nous accompagnons les entreprises marocaines en leur fournissant des roulements, ressorts, composants mécaniques, arrêts d’huile et chaînes de convoyeur de haute qualité, adaptés aux besoins de l’industrie nationale.',
+  description: 'FAB TOWER est votre fournisseur de confiance au marché marocain pour les solutions mécaniques industrielles. Nous accompagnons les entreprises marocaines en leur fournissant des roulements, ressorts, composants mécaniques, arrêts d\'huile et chaînes de convoyeur de haute qualité, adaptés aux besoins de l\'industrie nationale.',
 }
 
 export default function Home() {
@@ -35,7 +37,7 @@ export default function Home() {
     
     {
       id: 'seals',
-      title: 'Arrêt d’Huile (Oil Seals)',
+      title: 'Arrêt d’huile (Oil Seals)',
       description: 'Joints d\'huile de classe mondiale conçus pour les applications industrielles exigeantes.',
       icon: '🛡️',
     },
@@ -54,6 +56,7 @@ export default function Home() {
   { name: "Timken", logo: "/Timken.jpg" },
   { name: "NSK", logo: "/NSK.png" },
   { name: "NTN", logo: "/NTN.png" },
+  { name: "ROZA", logo: "/roza.PNG" },
 ];
 
 
@@ -94,7 +97,7 @@ export default function Home() {
                     </h1>
 
                     <p className="text-xl text-white/90 mb-8 leading-relaxed">
-               FAB TOWER est votre fournisseur de confiance au marché marocain pour les solutions mécaniques industrielles. Nous accompagnons les entreprises marocaines en leur fournissant des roulements, ressorts, composants mécaniques, arrêts d’huile et chaînes de convoyeur de haute qualité, adaptés aux besoins de l’industrie nationale.
+               FAB TOWER est votre fournisseur de confiance au marché marocain pour les solutions mécaniques industrielles. Nous accompagnons les entreprises marocaines en leur fournissant des roulements, ressorts, composants mécaniques, arrêts d'huile et chaînes de convoyeur de haute qualité, adaptés aux besoins de l'industrie nationale.
                     </p>
 
                     <div className="flex gap-4 flex-wrap">
@@ -135,7 +138,7 @@ export default function Home() {
                                     transition-transform duration-300 hover:scale-110"
                         >
                           <img
-                            src={brand.logo}
+                            src={brand.logo || "/placeholder.svg"}
                             alt={brand.name}
                             className="max-h-16 opacity-80 group-hover:opacity-100 transition duration-300"
                           />
@@ -178,6 +181,10 @@ export default function Home() {
                 </div>
               </section>
 
+              <PartnersSection />
+
+              <AboutTeamSection />
+
         {/* Why Choose FAB TOWER */}
         <section className="bg-secondary border-t border-b border-border py-20">
           <div className="container-wide">
@@ -212,8 +219,7 @@ export default function Home() {
           <div className="container-wide text-center">
             <h2 className="text-balance mb-6 text-foreground">Prêt à Commencer?</h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Contactez notre équipe dès aujourd'hui pour discuter de vos besoins en composants industriels et trouver la solution parfaite pour vos besoins de fabrication.
-            </p>
+            Pour plus d'informations ou demande de devis, n'hésitez pas à nous contacter, nous nous ferons un plaisir de vous renseigner.   </p>
             <div className="flex gap-4 justify-center flex-wrap">
               <Link
                 href="/contact"

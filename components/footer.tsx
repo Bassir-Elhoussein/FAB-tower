@@ -28,7 +28,7 @@ export function Footer() {
               FAB TOWER
             </h3>
             <p className="text-sm opacity-90">
-              Fournisseur premium de composants industriels et de solutions mécaniques.
+              Fournisseur premium de composants industriels et de solutions mécaniques au Maroc.
             </p>
           </div>
 
