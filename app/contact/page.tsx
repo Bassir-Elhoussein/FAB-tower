@@ -4,6 +4,9 @@ import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react'
 import { useState } from 'react'
+import WhatsAppButton from '@/components/ui/whatsapp-button';
+import PhoneButton from '@/components/ui/phone-button';
+import EmailButton from '@/components/ui/email-button';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -77,13 +80,15 @@ export default function Contact() {
     <>
       <Header />
 
-      <main>
+      <main> <PhoneButton />
+            <EmailButton />
+            <WhatsAppButton />
         <section
           className="relative border-b border-border py-16 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: "url('/contact.png')" }}
         >
           {/* Blur overlay */}
-          <div className="absolute inset-0 bg-black/20 backdrop-blur-sm"></div>
+          <div className="absolute inset-0 bg-black/10 backdrop-blur-sm"></div>
 
           <div className="relative container-wide">
             <h1 className="text-balance text-white">Nous Contacter</h1>

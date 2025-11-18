@@ -2,6 +2,9 @@ import Link from 'next/link'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { ArrowRight, Check } from 'lucide-react'
+import WhatsAppButton from '@/components/ui/whatsapp-button';
+import PhoneButton from '@/components/ui/phone-button';
+import EmailButton from '@/components/ui/email-button';
 
 export const metadata = {
   title: 'FAB TOWER - Composants Industriels & Solutions Mécaniques',
@@ -42,7 +45,15 @@ export default function Home() {
     },
   ]
 
-  const brands = ['SKF', 'FAG', 'Timken', 'NSK', 'NTN']
+  //const brands = ['SKF', 'FAG', 'Timken', 'NSK', 'NTN']
+  const brands = [
+  { name: "SKF", logo: "/skf.jpeg" },
+  { name: "FAG", logo: "/fag.jpg" },
+  { name: "Timken", logo: "/Timken.jpg" },
+  { name: "NSK", logo: "/NSK.png" },
+  { name: "NTN", logo: "/NTN.png" },
+];
+
 
   const highlights = [
     'Fiabilité & Qualité',
@@ -56,6 +67,10 @@ export default function Home() {
       <Header />
 
       <main>
+          
+      <PhoneButton />
+      <EmailButton />
+      <WhatsAppButton />
         {/* Hero Section */}
            <section
                 className="relative border-b border-border"
@@ -108,20 +123,29 @@ export default function Home() {
 
               {/* Trusted Brands */}
               <section className="bg-white border-b border-border">
-                <div className="container-wide py-12">
-                  <p className="text-center text-muted-foreground font-semibold mb-8">Distributeur Autorisé des Marques Premium</p>
-                  <div className="flex flex-wrap gap-8 justify-center items-center md:gap-12">
-                    {brands.map((brand) => (
-                      <div
-                        key={brand}
-                        className="px-6 py-3 border border-border rounded-lg bg-secondary hover:border-primary transition-colors"
-                      >
-                        <p className="font-bold text-foreground text-lg">{brand}</p>
-                      </div>
-                    ))}
+                  <div className="container-wide py-12">
+                    <p className="text-center text-muted-foreground font-semibold mb-8">
+                      Distributeur Autorisé des Marques Premium
+                    </p>
+
+                    <div className="flex flex-wrap gap-10 justify-center items-center md:gap-14">
+                      {brands.map((brand) => (
+                        <div
+                          key={brand.name}
+                          className="group relative w-32 h-20 flex items-center justify-center 
+                                    transition-transform duration-300 hover:scale-110"
+                        >
+                          <img
+                            src={brand.logo}
+                            alt={brand.name}
+                            className="max-h-16 opacity-80 group-hover:opacity-100 transition duration-300"
+                          />
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              </section>
+                </section>
+
 
               {/* Categories Overview */}
               <section className="bg-white py-20">

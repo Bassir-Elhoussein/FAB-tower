@@ -5,6 +5,9 @@ import { Footer } from '@/components/footer'
 import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import WhatsAppButton from '@/components/ui/whatsapp-button';
+import PhoneButton from '@/components/ui/phone-button';
+import EmailButton from '@/components/ui/email-button';
 
 interface Product {
   id: string
@@ -79,7 +82,9 @@ export default function Products() {
     <>
       <Header />
 
-      <main>
+      <main> <PhoneButton />
+            <EmailButton />
+            <WhatsAppButton />
         {/* Page Header */}
       <section
           className="relative border-b border-border py-16 bg-cover bg-center bg-no-repeat"

@@ -1,6 +1,9 @@
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { Award, Zap, Users, Globe, Shield, TrendingUp } from 'lucide-react'
+import WhatsAppButton from '@/components/ui/whatsapp-button';
+import PhoneButton from '@/components/ui/phone-button';
+import EmailButton from '@/components/ui/email-button';
 
 export const metadata = {
   title: 'À Propos de FAB TOWER - Fournisseur de Composants Industriels',
@@ -43,6 +46,9 @@ export default function About() {
       <Header />
 
       <main>
+         <PhoneButton />
+              <EmailButton />
+              <WhatsAppButton />
         {/* Page Header */}
           <section className="relative industrial-bg border-b border-border py-16">
             {/* Background Image with lighter Blur */}

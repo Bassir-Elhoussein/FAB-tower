@@ -631,7 +631,7 @@ function About() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$components$2f$header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Header"], {}, void 0, false, {
                 fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                lineNumber: 43,
+                lineNumber: 46,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -646,14 +646,14 @@ function About() {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                lineNumber: 49,
+                                lineNumber: 53,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-black/50"
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                lineNumber: 55,
+                                lineNumber: 59,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -664,7 +664,7 @@ function About() {
                                         children: "À Propos de FAB TOWER"
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                        lineNumber: 59,
+                                        lineNumber: 63,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -672,19 +672,19 @@ function About() {
                                         children: "Fournisseur premium de solutions mécaniques industrielles de confiance des fabricants du monde entier."
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                        lineNumber: 60,
+                                        lineNumber: 64,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                lineNumber: 58,
+                                lineNumber: 62,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                        lineNumber: 47,
+                        lineNumber: 51,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -699,7 +699,7 @@ function About() {
                                         children: "Qui Sommes-nous?"
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                        lineNumber: 73,
+                                        lineNumber: 77,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -707,7 +707,7 @@ function About() {
                                         children: "FAB TOWER est un fournisseur leader de composants mécaniques industriels et de solutions. Avec des années d'expérience dans l'industrie, nous nous sommes établis comme partenaire de confiance pour les fabricants cherchant des roulements, ressorts, pièces mécaniques, joints d'huile et chaînes de convoyeur de haute qualité."
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                        lineNumber: 74,
+                                        lineNumber: 78,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -715,7 +715,7 @@ function About() {
                                         children: "Notre entreprise est construite sur le fondement de la fourniture de produits exceptionnels, d'expertise technique et de service client. Nous travaillons étroitement avec des marques mondialement renommées incluant SKF, FAG, Timken, NSK et NTN pour assurer que nos clients reçoivent uniquement les meilleurs composants pour leurs opérations de fabrication."
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                        lineNumber: 77,
+                                        lineNumber: 81,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -723,23 +723,23 @@ function About() {
                                         children: "Basée à Casablanca, au Maroc, nous servons les clients de plusieurs industries, fournissant des solutions fiables qui soutiennent leur excellence opérationnelle et leur croissance."
                                     }, void 0, false, {
                                         fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                        lineNumber: 80,
+                                        lineNumber: 84,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                lineNumber: 72,
+                                lineNumber: 76,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                            lineNumber: 71,
+                            lineNumber: 75,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                        lineNumber: 70,
+                        lineNumber: 74,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -758,14 +758,14 @@ function About() {
                                                         className: "w-1 h-8 bg-primary rounded-full"
                                                     }, void 0, false, {
                                                         fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                                        lineNumber: 93,
+                                                        lineNumber: 97,
                                                         columnNumber: 19
                                                     }, this),
                                                     "Notre Mission"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                                lineNumber: 92,
+                                                lineNumber: 96,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -773,13 +773,13 @@ function About() {
                                                 children: "Être le partenaire de confiance des fabricants industriels en fournissant des composants mécaniques de qualité premium, une expertise technique exceptionnelle et un service client remarquable. Nous nous engageons à soutenir le succès de nos clients grâce à des solutions fiables et innovantes."
                                             }, void 0, false, {
                                                 fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                                lineNumber: 96,
+                                                lineNumber: 100,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                        lineNumber: 91,
+                                        lineNumber: 95,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -791,14 +791,14 @@ function About() {
                                                         className: "w-1 h-8 bg-primary rounded-full"
                                                     }, void 0, false, {
                                                         fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                                        lineNumber: 102,
+                                                        lineNumber: 106,
                                                         columnNumber: 19
                                                     }, this),
                                                     "Nos Valeurs"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                                lineNumber: 101,
+                                                lineNumber: 105,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -806,29 +806,29 @@ function About() {
                                                 children: "La fiabilité, l'intégrité et l'approche centrée sur le client guident tout ce que nous faisons. Nous accordons la priorité à la qualité plutôt qu'à la quantité, investissons dans les connaissances techniques et établissons des partenariats durables basés sur la confiance. Notre engagement envers l'amélioration continue garantit que nous livrons toujours l'excellence."
                                             }, void 0, false, {
                                                 fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                                lineNumber: 105,
+                                                lineNumber: 109,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                        lineNumber: 100,
+                                        lineNumber: 104,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                lineNumber: 90,
+                                lineNumber: 94,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                            lineNumber: 89,
+                            lineNumber: 93,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                        lineNumber: 88,
+                        lineNumber: 92,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -841,7 +841,7 @@ function About() {
                                     children: "Pourquoi Choisir FAB TOWER?"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                    lineNumber: 116,
+                                    lineNumber: 120,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -855,7 +855,7 @@ function About() {
                                                     className: "w-10 h-10 text-primary mb-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                                    lineNumber: 122,
+                                                    lineNumber: 126,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -863,7 +863,7 @@ function About() {
                                                     children: value.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                                    lineNumber: 123,
+                                                    lineNumber: 127,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -871,30 +871,30 @@ function About() {
                                                     children: value.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                                    lineNumber: 124,
+                                                    lineNumber: 128,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                            lineNumber: 121,
+                                            lineNumber: 125,
                                             columnNumber: 19
                                         }, this);
                                     })
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                    lineNumber: 117,
+                                    lineNumber: 121,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                            lineNumber: 115,
+                            lineNumber: 119,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                        lineNumber: 114,
+                        lineNumber: 118,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -907,7 +907,7 @@ function About() {
                                     children: "Qualité & Certifications"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                    lineNumber: 135,
+                                    lineNumber: 139,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -915,7 +915,7 @@ function About() {
                                     children: "Nous maintenons les plus hauts standards de qualité, de sécurité et de responsabilité environnementale. Nos certifications démontrent notre engagement envers l'excellence."
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                    lineNumber: 136,
+                                    lineNumber: 140,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -927,7 +927,7 @@ function About() {
                                                     className: "w-8 h-8 text-primary flex-shrink-0"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                                    lineNumber: 142,
+                                                    lineNumber: 146,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -935,29 +935,29 @@ function About() {
                                                     children: cert
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                                    lineNumber: 143,
+                                                    lineNumber: 147,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                            lineNumber: 141,
+                                            lineNumber: 145,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                    lineNumber: 139,
+                                    lineNumber: 143,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                            lineNumber: 134,
+                            lineNumber: 138,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                        lineNumber: 133,
+                        lineNumber: 137,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -970,7 +970,7 @@ function About() {
                                     children: "Travaillons Ensemble"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                    lineNumber: 153,
+                                    lineNumber: 157,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -978,7 +978,7 @@ function About() {
                                     children: "Vous avez des questions sur nos produits ou services? Contactez notre équipe dès aujourd'hui."
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                    lineNumber: 154,
+                                    lineNumber: 158,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -987,29 +987,29 @@ function About() {
                                     children: "Nous Contacter"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                                    lineNumber: 157,
+                                    lineNumber: 161,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                            lineNumber: 152,
+                            lineNumber: 156,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                        lineNumber: 151,
+                        lineNumber: 155,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                lineNumber: 45,
+                lineNumber: 48,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$components$2f$footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Footer"], {}, void 0, false, {
                 fileName: "[project]/OneDrive/Desktop/fabtower/code/app/about/page.tsx",
-                lineNumber: 167,
+                lineNumber: 171,
                 columnNumber: 7
             }, this)
         ]

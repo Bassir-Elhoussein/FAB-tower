@@ -3,6 +3,9 @@ import { Footer } from '@/components/footer'
 import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowLeft, ShoppingCart, Download } from 'lucide-react'
+import WhatsAppButton from '@/components/ui/whatsapp-button';
+import PhoneButton from '@/components/ui/phone-button';
+import EmailButton from '@/components/ui/email-button';
 
 const productDetails: Record<string, any> = {
   'bearing-roller': {
@@ -174,6 +177,9 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
       <Header />
 
       <main>
+         <PhoneButton />
+         <EmailButton />
+         <WhatsAppButton />
         {/* Breadcrumb */}
         <div className="border-b border-border bg-secondary">
           <div className="container-wide py-4">
