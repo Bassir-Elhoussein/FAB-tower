@@ -4811,12 +4811,6 @@
   }
 
   @media (min-width: 48rem) {
-    .md\:gap-14 {
-      gap: calc(var(--spacing) * 14);
-    }
-  }
-
-  @media (min-width: 48rem) {
     .md\:p-12 {
       padding: calc(var(--spacing) * 12);
     }
