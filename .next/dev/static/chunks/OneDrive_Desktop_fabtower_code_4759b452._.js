@@ -254,7 +254,7 @@ function Footer() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm opacity-90",
-                                    children: "Fournisseur premium de composants industriels et de solutions mécaniques."
+                                    children: "Fournisseur premium de composants industriels et de solutions mécaniques au Maroc."
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/components/footer.tsx",
                                     lineNumber: 30,
@@ -1852,53 +1852,6 @@ function Contact() {
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/fabtower/code/app/contact/page.tsx",
                         lineNumber: 128,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        className: "bg-secondary border-t border-border py-12",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "container-wide",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-balance mb-8 text-foreground",
-                                    children: "Localisation"
-                                }, void 0, false, {
-                                    fileName: "[project]/OneDrive/Desktop/fabtower/code/app/contact/page.tsx",
-                                    lineNumber: 314,
-                                    columnNumber: 5
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-border rounded-lg overflow-hidden h-96 flex items-center justify-center",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
-                                        src: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3323.5624795528092!2d-7.610969624303223!3d33.59070737333426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDM1JzI2LjYiTiA3wrAzNiczMC4yIlc!5e0!3m2!1sfr!2sma!4v1763315728681!5m2!1sfr!2sma",
-                                        width: "100%",
-                                        height: "100%",
-                                        style: {
-                                            border: 0
-                                        },
-                                        allowFullScreen: true,
-                                        loading: "lazy",
-                                        referrerPolicy: "no-referrer-when-downgrade",
-                                        title: "Google Maps"
-                                    }, void 0, false, {
-                                        fileName: "[project]/OneDrive/Desktop/fabtower/code/app/contact/page.tsx",
-                                        lineNumber: 316,
-                                        columnNumber: 7
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/OneDrive/Desktop/fabtower/code/app/contact/page.tsx",
-                                    lineNumber: 315,
-                                    columnNumber: 5
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/OneDrive/Desktop/fabtower/code/app/contact/page.tsx",
-                            lineNumber: 313,
-                            columnNumber: 3
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/OneDrive/Desktop/fabtower/code/app/contact/page.tsx",
-                        lineNumber: 312,
                         columnNumber: 9
                     }, this)
                 ]

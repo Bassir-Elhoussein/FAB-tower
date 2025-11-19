@@ -19,7 +19,7 @@ export default function Home() {
       id: 'mechanical',
       title: 'Fabrication Mécanique',
       description: 'Production mécanique personnalisée avec usinage de précision et services d\'assemblage.',
-      icon: '🔧',
+      icon: '⚙️',
     },
      {
       id: 'springs',
@@ -31,7 +31,7 @@ export default function Home() {
       id: 'bearings',
       title: 'Roulements (Bearings)',
       description: 'Roulements premium de marques mondialement renommées incluant SKF, FAG, Timken, NSK et NTN.',
-      icon: '⚙️',
+      icon: '/IMG_8509.PNG',
     },
    
     
@@ -49,7 +49,6 @@ export default function Home() {
     },
   ]
 
-  //const brands = ['SKF', 'FAG', 'Timken', 'NSK', 'NTN']
   const brands = [
   { name: "SKF", logo: "/skf.jpeg" },
   { name: "FAG", logo: "/fag.jpg" },
@@ -150,14 +149,14 @@ export default function Home() {
 
 
               {/* Categories Overview */}
-              <section className="bg-white py-20">
+              <section className="bg-secondary py-20">
                 <div className="container-wide">
                   <h2 className="text-balance mb-4 text-foreground">Nos Catégories de Produits</h2>
                   <p className="text-lg text-muted-foreground mb-12 max-w-2xl">
                     Gamme complète de composants industriels conçus pour répondre aux normes de fabrication les plus élevées.
                   </p>
 
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+                  <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
                     {categories.map((category) => (
                       <Link
                         key={category.id}
@@ -165,16 +164,16 @@ export default function Home() {
                         className="group p-6 bg-secondary border border-border rounded-lg hover:border-primary hover:bg-accent hover:text-accent-foreground transition-all duration-300"
                       >
                         <div className="mb-4">
-  {category.icon.startsWith('/') ? (
-    <img
-      src={category.icon}
-      alt={category.title}
-      className="w-12 h-12 object-contain"
-    />
-  ) : (
-    <span className="text-4xl">{category.icon}</span>
-  )}
-</div>
+                                  {category.icon.startsWith('/') ? (
+                                    <img
+                                      src={category.icon || "/placeholder.svg"}
+                                      alt={category.title}
+                                      className="w-12 h-12 object-contain "
+                                    />
+                                  ) : (
+                                    <span className="text-4xl">{category.icon}</span>
+                                  )}
+                                </div>
 
                         <h3 className="font-semibold text-foreground group-hover:text-accent-foreground mb-2">
                           {category.title}
@@ -191,13 +190,8 @@ export default function Home() {
                   </div>
                 </div>
               </section>
-
-              <PartnersSection />
-
-              <AboutTeamSection />
-
-        {/* Why Choose FAB TOWER */}
-        <section className="bg-secondary border-t border-b border-border py-20">
+ {/* Why Choose FAB TOWER */}
+        <section className=" bg-white py-20 border-t border-b border-border py-20">
           <div className="container-wide">
             <h2 className="text-balance mb-12 text-foreground">Pourquoi Choisir FAB TOWER?</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -225,6 +219,11 @@ export default function Home() {
           </div>
         </section>
 
+              <PartnersSection />
+
+              <AboutTeamSection />
+
+       
         {/* CTA Section */}
         <section className="bg-white py-20">
           <div className="container-wide text-center">
