@@ -8,6 +8,7 @@ export function PartnersSection() {
   const partnerLogos = [
     { name: 'Classic', logo: '/part1.JPG' },
     { name: 'Sunshine', logo: '/part2.JPG' },
+     { name: 'Sunshine', logo: '/koyo.JPG' },
    
   ]
 

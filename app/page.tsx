@@ -56,6 +56,7 @@ export default function Home() {
   { name: "NSK", logo: "/NSK.png" },
   { name: "NTN", logo: "/NTN.png" },
   { name: "ROZA", logo: "/roza.PNG" },
+  { name: "KOYO", logo: "/koyo.PNG" }
 ];
 
 
@@ -129,7 +130,7 @@ export default function Home() {
                       Distributeur  des Marques Premium
                     </p>
 
-                    <div className="flex flex-wrap gap-10 justify-center items-center md:gap-14">
+                    <div className="flex flex-wrap gap-10 justify-center items-center md:gap-12">
                       {brands.map((brand) => (
                         <div
                           key={brand.name}

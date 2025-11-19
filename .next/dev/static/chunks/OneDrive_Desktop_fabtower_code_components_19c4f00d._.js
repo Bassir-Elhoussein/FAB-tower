@@ -629,6 +629,10 @@ function PartnersSection() {
         {
             name: 'Sunshine',
             logo: '/part2.JPG'
+        },
+        {
+            name: 'Sunshine',
+            logo: '/koyo.JPG'
         }
     ];
     const FullText = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -638,14 +642,14 @@ function PartnersSection() {
                     children: "FAB TOWER est reconnu comme l'un des fournisseurs industriels les plus fiables au Maroc, offrant des composants mécaniques et des solutions industrielles de haute qualité. Grâce à notre expertise et à une compréhension profonde des besoins des entreprises marocaines, nous assurons un service professionnel, des produits performants et une disponibilité continue."
                 }, void 0, false, {
                     fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                    lineNumber: 16,
+                    lineNumber: 17,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     children: "Notre sérieux nous a permis de gagner la confiance de grandes entreprises telles que COPAG et Distra, grâce à un sourcing direct, sécurisé et conforme aux standards techniques les plus exigeants."
                 }, void 0, false, {
                     fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                    lineNumber: 21,
+                    lineNumber: 22,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -655,7 +659,7 @@ function PartnersSection() {
                             children: "Nos principales solutions :"
                         }, void 0, false, {
                             fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                            lineNumber: 26,
+                            lineNumber: 27,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -665,60 +669,60 @@ function PartnersSection() {
                                     children: "Roulements industriels (à billes, rouleaux, spéciaux…)"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                                    lineNumber: 28,
+                                    lineNumber: 29,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                     children: "Ressorts et composants mécaniques sur mesure"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                                    lineNumber: 29,
+                                    lineNumber: 30,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                     children: "Arrêts d'huile (Oil Seals) haute performance"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                                    lineNumber: 30,
+                                    lineNumber: 31,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                     children: "Chaînes de convoyeur pour environnements exigeants"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                                    lineNumber: 31,
+                                    lineNumber: 32,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                            lineNumber: 27,
+                            lineNumber: 28,
                             columnNumber: 9
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                    lineNumber: 25,
+                    lineNumber: 26,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     children: "Avec un réseau de partenaires fiables, des produits certifiés et une réactivité exemplaire, FAB TOWER contribue à optimiser les performances des usines marocaines. Choisir FAB TOWER, c'est choisir un partenaire industriel fiable, engagé et capable d'accompagner la croissance de votre entreprise."
                 }, void 0, false, {
                     fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                    lineNumber: 35,
+                    lineNumber: 36,
                     columnNumber: 7
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-            lineNumber: 15,
+            lineNumber: 16,
             columnNumber: 5
         }, this);
     const ShortText = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             children: "FAB TOWER est reconnu comme l'un des fournisseurs industriels les plus fiables au Maroc, offrant des composants mécaniques et des solutions industrielles de haute qualité. Grâce à notre expertise et à une compréhension profonde des besoins des entreprises marocaines, nous assurons un service professionnel, des produits performants et une disponibilité continue."
         }, void 0, false, {
             fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-            lineNumber: 43,
+            lineNumber: 44,
             columnNumber: 5
         }, this);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -735,23 +739,23 @@ function PartnersSection() {
                                 children: "Nous collaborons avec des partenaires de confiance au Maroc"
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                                lineNumber: 56,
+                                lineNumber: 57,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "text-muted-foreground leading-relaxed mb-8",
                                 children: isExpanded ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FullText, {}, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                                    lineNumber: 60,
+                                    lineNumber: 61,
                                     columnNumber: 29
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ShortText, {}, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                                    lineNumber: 60,
+                                    lineNumber: 61,
                                     columnNumber: 44
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                                lineNumber: 59,
+                                lineNumber: 60,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -760,13 +764,13 @@ function PartnersSection() {
                                 children: isExpanded ? 'LIRE MOINS' : 'LIRE LA SUITE'
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                                lineNumber: 62,
+                                lineNumber: 63,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                        lineNumber: 54,
+                        lineNumber: 55,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -779,33 +783,33 @@ function PartnersSection() {
                                     className: "max-w-full max-h-full object-contain"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                                    lineNumber: 77,
+                                    lineNumber: 78,
                                     columnNumber: 17
                                 }, this)
                             }, partner.name, false, {
                                 fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                                lineNumber: 73,
+                                lineNumber: 74,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                        lineNumber: 71,
+                        lineNumber: 72,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                lineNumber: 52,
+                lineNumber: 53,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-            lineNumber: 51,
+            lineNumber: 52,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-        lineNumber: 50,
+        lineNumber: 51,
         columnNumber: 5
     }, this);
 }

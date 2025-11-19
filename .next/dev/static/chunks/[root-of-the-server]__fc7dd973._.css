@@ -4889,6 +4889,12 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:gap-12 {
+      gap: calc(var(--spacing) * 12);
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:gap-14 {
       gap: calc(var(--spacing) * 14);
     }

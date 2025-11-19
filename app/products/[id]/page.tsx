@@ -84,7 +84,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
                 <h1 className="text-balance text-foreground mb-4">{product.name}</h1>
                 <p className="text-lg text-muted-foreground mb-6">{product.description}</p>
 
-                {/* <div className="mb-8 flex gap-4">
+                <div className="mb-8 flex gap-4">
                   <a
                     href="mailto:fabtower.contact@gmail.com"
                     className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors font-semibold"
@@ -92,14 +92,14 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
                     <ShoppingCart size={20} />
                     Demander un Devis
                   </a>
-                  <a
+                  {/* <a
                     href="#"
                     className="inline-flex items-center gap-2 px-6 py-3 border-2 border-border text-foreground rounded-md hover:border-primary transition-colors font-semibold"
                   >
                     <Download size={20} />
                     Télécharger la Fiche
-                  </a>
-                </div> */}
+                  </a> */}
+                </div>
 
                 <div className="space-y-4">
                   <div>
