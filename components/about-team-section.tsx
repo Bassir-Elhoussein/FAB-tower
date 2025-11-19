@@ -13,7 +13,7 @@ export function AboutTeamSection() {
                 À propos de l'équipe
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-              Derrière FAB TOWER se trouve une équipe passionnée et engagée, menée par son fondateur et dirigeant Mohcine El Boukhari, qui cumule plus de 25 ans d’expérience dans le domaine de la fourniture de composants industriels, de la mécanique de précision et des solutions techniques pour les entreprises marocaines.
+              <br/> <br/>Derrière FAB TOWER se trouve une équipe passionnée et engagée, menée par son fondateur et dirigeant Mohcine El Boukhari, qui cumule plus de 25 ans d’expérience dans le domaine de la fourniture de composants industriels, de la mécanique de précision et des solutions techniques pour les entreprises marocaines.
 
 Grâce à cette expertise solide, notre équipe accompagne les professionnels avec une vision claire, une maîtrise technique éprouvée et un engagement constant envers la qualité et la fiabilité.
 Nous travaillons chaque jour pour offrir des solutions adaptées aux besoins de nos clients, en mettant en avant innovation, réactivité et excellence opérationnelle.

@@ -115,7 +115,7 @@ function Footer() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm opacity-90",
-                                    children: "Fournisseur premium de composants industriels et de solutions mécaniques."
+                                    children: "Fournisseur premium de composants industriels et de solutions mécaniques au Maroc."
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/components/footer.tsx",
                                     lineNumber: 30,
@@ -795,7 +795,7 @@ const categories = [
     {
         id: 'mechanical',
         title: 'Fabrication Mécanique',
-        label: 'Mécanique',
+        label: 'Fabrication mécanique',
         description: `
     <p>Spécialisés dans la fabrication mécanique de haute précision, nous proposons des solutions techniques robustes et adaptées aux exigences de l’industrie moderne. Grâce à un savoir-faire solide, un parc machines performant et un contrôle rigoureux de toutes les étapes de production, chaque composant est réalisé avec exactitude et fiabilité.</p>
 
@@ -818,32 +818,32 @@ const categories = [
     },
     {
         id: 'seals',
-        title: 'Joints d\'Huile',
-        label: 'Joints',
+        title: 'Arrêt d’Huile',
+        label: 'Arrêt d’Huile',
         description: `
-    <p>Nous proposons des joints d’huile originaux des plus grandes marques mondiales pour garantir la meilleure performance et protection de vos machines. Nos produits sont conçus pour prévenir les fuites et maintenir l’efficacité des équipements dans toutes les applications industrielles et mécaniques.</p>
+    <p>Nous proposons des Arrêt d’Huile originaux des plus grandes marques mondiales pour garantir la meilleure performance et protection de vos machines. Nos produits sont conçus pour prévenir les fuites et maintenir l’efficacité des équipements dans toutes les applications industrielles et mécaniques.</p>
 
-    <p>Avantages de nos joints d’huile de marques mondiales :</p>
+    <p>Avantages de nos Arrêt d’Huile de marques mondiales :</p>
     <ul>
       <li><strong>Qualité fiable</strong> : issus des meilleures marques de l’industrie.</li>
       <li><strong>Haute résistance</strong> : adaptés à la chaleur, à la pression et à l’usure.</li>
       <li><strong>Installation facile et sécurisée</strong> : compatibles avec diverses machines et moteurs.</li>
     </ul>
 
-    <p>Applications des joints d’huile de marques mondiales :</p>
+    <p>Applications des Arrêt d’Huile de marques mondiales :</p>
     <ul>
       <li><strong>Moteurs et équipements industriels</strong> : protection optimale et prévention des fuites.</li>
       <li><strong>Machines agricoles et mécaniques</strong> : maintien de l’efficacité des équipements.</li>
       <li><strong>Équipements pour l’énergie et le transport</strong> : performances fiables même dans les conditions exigeantes.</li>
     </ul>
 
-    <p>Obtenez des joints d’huile originaux de marques mondiales pour protéger vos équipements et assurer un fonctionnement optimal.</p>
+    <p>Obtenez des Arrêt d’Huile originaux de marques mondiales pour protéger vos équipements et assurer un fonctionnement optimal.</p>
   `
     },
     {
         id: 'chains',
         title: 'Chaînes de Convoyeur',
-        label: 'Chaînes',
+        label: 'Chaînes de convoyeur à rouleaux ',
         description: `
     <p>Nous proposons une large gamme de chaînes de convoyeurs industriels conçues pour assurer un transport efficace, sûr et durable de vos matériaux et produits. Nos chaînes sont fabriquées selon les normes industrielles les plus strictes, garantissant fiabilité, longévité et performance optimale pour tous vos systèmes de convoyage.</p>
 

@@ -254,7 +254,7 @@ function Footer() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm opacity-90",
-                                    children: "Fournisseur premium de composants industriels et de solutions mécaniques."
+                                    children: "Fournisseur premium de composants industriels et de solutions mécaniques au Maroc."
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/components/footer.tsx",
                                     lineNumber: 30,
@@ -1217,7 +1217,7 @@ const categories = [
     {
         id: 'mechanical',
         title: 'Fabrication Mécanique',
-        label: 'Mécanique',
+        label: 'Fabrication mécanique',
         description: `
     <p>Spécialisés dans la fabrication mécanique de haute précision, nous proposons des solutions techniques robustes et adaptées aux exigences de l’industrie moderne. Grâce à un savoir-faire solide, un parc machines performant et un contrôle rigoureux de toutes les étapes de production, chaque composant est réalisé avec exactitude et fiabilité.</p>
 

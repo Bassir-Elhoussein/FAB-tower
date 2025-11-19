@@ -78,7 +78,7 @@ export default function About() {
             <div className="max-w-4xl">
               <h2 className="text-balance mb-6 text-foreground">Qui Sommes-nous?</h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                FAB TOWER est un fournisseur leader de composants mécaniques industriels et de solutions. Avec des années d'expérience dans l'industrie, nous nous sommes établis comme partenaire de confiance pour les fabricants cherchant des roulements, ressorts, pièces mécaniques, arrêt  d'huile et chaînes de convoyeur de haute qualité.
+                FAB TOWER est un fournisseur leader de composants mécaniques industriels et de solutions au Maroc . Avec des années d'expérience dans l'industrie, nous nous sommes établis comme partenaire de confiance pour les fabricants cherchant des roulements, ressorts, pièces mécaniques, arrêt  d'huile et chaînes de convoyeur de haute qualité.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 Notre entreprise est construite sur le fondement de la fourniture de produits exceptionnels, d'expertise technique et de service client. Nous travaillons étroitement avec des marques mondialement renommées incluant SKF, FAG, Timken, NSK et NTN pour assurer que nos clients reçoivent uniquement les meilleurs composants pour leurs opérations de fabrication.

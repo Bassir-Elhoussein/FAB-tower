@@ -52,9 +52,7 @@ export function PartnersSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div>
-            <p className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-4">
-              FabTower. CLIENT. COMMUNAUTÉ
-            </p>
+            
             <h2 className="text-balance mb-6 text-foreground">
               Nous collaborons avec des partenaires de confiance au Maroc
             </h2>

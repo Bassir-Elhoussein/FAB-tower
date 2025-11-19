@@ -25,7 +25,7 @@ export default function Home() {
       id: 'springs',
       title: 'Fabrication Ressorts (Springs)',
       description: 'Ressorts industriels certifiés fabriqués aux plus hauts standards de précision.',
-      icon: '🌀',
+      icon: '/ressort.png',
     },
     {
       id: 'bearings',
@@ -39,7 +39,7 @@ export default function Home() {
       id: 'seals',
       title: 'Arrêt d’huile (Oil Seals)',
       description: 'Joints d\'huile de classe mondiale conçus pour les applications industrielles exigeantes.',
-      icon: '🛡️',
+      icon: '/aret-removebg-preview.png',
     },
     {
       id: 'chains',
@@ -164,7 +164,18 @@ export default function Home() {
                         href={`/products#${category.id}`}
                         className="group p-6 bg-secondary border border-border rounded-lg hover:border-primary hover:bg-accent hover:text-accent-foreground transition-all duration-300"
                       >
-                        <div className="text-4xl mb-4">{category.icon}</div>
+                        <div className="mb-4">
+  {category.icon.startsWith('/') ? (
+    <img
+      src={category.icon}
+      alt={category.title}
+      className="w-12 h-12 object-contain"
+    />
+  ) : (
+    <span className="text-4xl">{category.icon}</span>
+  )}
+</div>
+
                         <h3 className="font-semibold text-foreground group-hover:text-accent-foreground mb-2">
                           {category.title}
                         </h3>

@@ -692,36 +692,28 @@ function PartnersSection() {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-4",
-                                children: "FabTower. CLIENT. COMMUNAUTÉ"
-                            }, void 0, false, {
-                                fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                                lineNumber: 55,
-                                columnNumber: 13
-                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-balance mb-6 text-foreground",
                                 children: "Nous collaborons avec des partenaires de confiance au Maroc"
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                                lineNumber: 58,
+                                lineNumber: 56,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "text-muted-foreground leading-relaxed mb-8",
                                 children: isExpanded ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FullText, {}, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                                    lineNumber: 62,
+                                    lineNumber: 60,
                                     columnNumber: 29
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ShortText, {}, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                                    lineNumber: 62,
+                                    lineNumber: 60,
                                     columnNumber: 44
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                                lineNumber: 61,
+                                lineNumber: 59,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$fabtower$2f$code$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -730,7 +722,7 @@ function PartnersSection() {
                                 children: isExpanded ? 'LIRE MOINS' : 'LIRE LA SUITE'
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                                lineNumber: 64,
+                                lineNumber: 62,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -749,17 +741,17 @@ function PartnersSection() {
                                     className: "max-w-full max-h-full object-contain"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                                    lineNumber: 79,
+                                    lineNumber: 77,
                                     columnNumber: 17
                                 }, this)
                             }, partner.name, false, {
                                 fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                                lineNumber: 75,
+                                lineNumber: 73,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/fabtower/code/components/partners-section.tsx",
-                        lineNumber: 73,
+                        lineNumber: 71,
                         columnNumber: 11
                     }, this)
                 ]
